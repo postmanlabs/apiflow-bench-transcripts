@@ -1,12 +1,156 @@
 {
-  "schema_version": "1.0",
+  "avg_file_bytes": 39872,
   "bench": "APIFlow-Bench 1.0",
-  "generated_at": "2026-07-20T14:55:34-0700",
-  "n_trials": 44362,
-  "n_pairs": 8873,
+  "errors": [],
+  "generated_at": "2026-07-31T12:25:04-0700",
+  "max_file_bytes": 3692378,
   "n_errors": 0,
   "n_errors_note": "n_errors counts export/parse errors only. Trials that completed without a verifier verdict (verdict '', passed null) are listed in unscored_trials; the leaderboard counts them in trial totals but not as passes.",
+  "n_eval_files": 41093,
+  "n_pairs": 11208,
+  "n_trials": 56037,
   "n_unscored_trials": 19,
+  "per_model": {
+    "claude-fable-5": {
+      "bytes": 36794052,
+      "pairs": 467,
+      "trials": 2335
+    },
+    "claude-haiku-4-5-20251001": {
+      "bytes": 62268364,
+      "pairs": 467,
+      "trials": 2335
+    },
+    "claude-opus-4-8": {
+      "bytes": 58332938,
+      "pairs": 467,
+      "trials": 2335
+    },
+    "claude-sonnet-4-6": {
+      "bytes": 72462059,
+      "pairs": 467,
+      "trials": 2335
+    },
+    "claude-sonnet-5": {
+      "bytes": 75580794,
+      "pairs": 467,
+      "trials": 2335
+    },
+    "deepseek-v4-flash": {
+      "bytes": 75647526,
+      "pairs": 467,
+      "trials": 2335
+    },
+    "deepseek-v4-pro": {
+      "bytes": 76568104,
+      "pairs": 467,
+      "trials": 2335
+    },
+    "glm-5p2": {
+      "bytes": 151711983,
+      "pairs": 467,
+      "trials": 2335
+    },
+    "gpt-5-mini": {
+      "bytes": 82501793,
+      "pairs": 467,
+      "trials": 2335
+    },
+    "gpt-5.4-mini": {
+      "bytes": 47546314,
+      "pairs": 467,
+      "trials": 2335
+    },
+    "gpt-5.5": {
+      "bytes": 80946862,
+      "pairs": 467,
+      "trials": 2335
+    },
+    "gpt-5.6-luna": {
+      "bytes": 72965160,
+      "pairs": 467,
+      "trials": 2335
+    },
+    "gpt-5.6-sol": {
+      "bytes": 83282472,
+      "pairs": 467,
+      "trials": 2335
+    },
+    "gpt-5.6-terra": {
+      "bytes": 77061808,
+      "pairs": 467,
+      "trials": 2335
+    },
+    "gpt-oss-120b": {
+      "bytes": 62086663,
+      "pairs": 467,
+      "trials": 2335
+    },
+    "gpt-oss-20b": {
+      "bytes": 66881934,
+      "pairs": 467,
+      "trials": 2334
+    },
+    "kimi-k2p5": {
+      "bytes": 62989606,
+      "pairs": 467,
+      "trials": 2335
+    },
+    "kimi-k2p6": {
+      "bytes": 100493371,
+      "pairs": 467,
+      "trials": 2335
+    },
+    "kimi-k2p7-code": {
+      "bytes": 74874534,
+      "pairs": 467,
+      "trials": 2335
+    },
+    "kimi-k3": {
+      "bytes": 94233096,
+      "pairs": 467,
+      "trials": 2335
+    },
+    "minimax-m2p7": {
+      "bytes": 76557106,
+      "pairs": 467,
+      "trials": 2334
+    },
+    "minimax-m3": {
+      "bytes": 382929127,
+      "pairs": 467,
+      "trials": 2335
+    },
+    "qwen3p6-plus": {
+      "bytes": 102201904,
+      "pairs": 467,
+      "trials": 2334
+    },
+    "qwen3p7-plus": {
+      "bytes": 157439798,
+      "pairs": 467,
+      "trials": 2335
+    }
+  },
+  "schema_version": "1.0",
+  "short_pairs": [
+    {
+      "model": "gpt-oss-20b",
+      "n_trials": 4,
+      "task_id": "v56-w11-sub08"
+    },
+    {
+      "model": "minimax-m2p7",
+      "n_trials": 4,
+      "task_id": "v56-w04-chain-1to09"
+    },
+    {
+      "model": "qwen3p6-plus",
+      "n_trials": 4,
+      "task_id": "v56-w18-chain-1to04"
+    }
+  ],
+  "total_bytes": 2234357368,
   "unscored_trials": [
     "qwen3p7-plus/v56-w02-chain-1to03-t3",
     "qwen3p7-plus/v56-w02-chain-1to06-t2",
@@ -27,123 +171,5 @@
     "qwen3p7-plus/v56-w16-chain-1to15-t1",
     "qwen3p7-plus/v56-w16-sub02-t3",
     "qwen3p7-plus/v56-w18-chain-1to09-t1"
-  ],
-  "errors": [],
-  "per_model": {
-    "claude-haiku-4-5-20251001": {
-      "trials": 2335,
-      "pairs": 467,
-      "bytes": 62268364
-    },
-    "claude-opus-4-8": {
-      "trials": 2335,
-      "pairs": 467,
-      "bytes": 58332938
-    },
-    "claude-sonnet-4-6": {
-      "trials": 2335,
-      "pairs": 467,
-      "bytes": 72462059
-    },
-    "claude-sonnet-5": {
-      "trials": 2335,
-      "pairs": 467,
-      "bytes": 75580794
-    },
-    "deepseek-v4-flash": {
-      "trials": 2335,
-      "pairs": 467,
-      "bytes": 75647526
-    },
-    "deepseek-v4-pro": {
-      "trials": 2335,
-      "pairs": 467,
-      "bytes": 76568104
-    },
-    "glm-5p2": {
-      "trials": 2335,
-      "pairs": 467,
-      "bytes": 151711983
-    },
-    "gpt-5-mini": {
-      "trials": 2335,
-      "pairs": 467,
-      "bytes": 82501793
-    },
-    "gpt-5.4-mini": {
-      "trials": 2335,
-      "pairs": 467,
-      "bytes": 47546314
-    },
-    "gpt-5.5": {
-      "trials": 2335,
-      "pairs": 467,
-      "bytes": 80946862
-    },
-    "gpt-5.6-terra": {
-      "trials": 2335,
-      "pairs": 467,
-      "bytes": 77061808
-    },
-    "gpt-oss-120b": {
-      "trials": 2335,
-      "pairs": 467,
-      "bytes": 62086663
-    },
-    "gpt-oss-20b": {
-      "trials": 2334,
-      "pairs": 467,
-      "bytes": 66881934
-    },
-    "kimi-k2p5": {
-      "trials": 2335,
-      "pairs": 467,
-      "bytes": 62989606
-    },
-    "kimi-k2p6": {
-      "trials": 2335,
-      "pairs": 467,
-      "bytes": 100493371
-    },
-    "kimi-k2p7-code": {
-      "trials": 2335,
-      "pairs": 467,
-      "bytes": 74874534
-    },
-    "minimax-m2p7": {
-      "trials": 2334,
-      "pairs": 467,
-      "bytes": 76557106
-    },
-    "qwen3p6-plus": {
-      "trials": 2334,
-      "pairs": 467,
-      "bytes": 102201904
-    },
-    "qwen3p7-plus": {
-      "trials": 2335,
-      "pairs": 467,
-      "bytes": 157439798
-    }
-  },
-  "short_pairs": [
-    {
-      "model": "gpt-oss-20b",
-      "task_id": "v56-w11-sub08",
-      "n_trials": 4
-    },
-    {
-      "model": "minimax-m2p7",
-      "task_id": "v56-w04-chain-1to09",
-      "n_trials": 4
-    },
-    {
-      "model": "qwen3p6-plus",
-      "task_id": "v56-w18-chain-1to04",
-      "n_trials": 4
-    }
-  ],
-  "max_file_bytes": 3692378,
-  "avg_file_bytes": 35258,
-  "total_bytes": 1564153461
+  ]
 }
