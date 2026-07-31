@@ -2,8 +2,10 @@
 
 Complete raw transcripts for every trial behind the
 [APIFlow-Bench 1.0 leaderboard](https://www.postman.com/ai/apiflow-leaderboard/):
-**44,362 trials** — 19 models × 467 tasks × 5 trials (a handful of pairs have
-fewer than 5 completed runs; see `_export_manifest.json`).
+**56,037 trials** — 24 models × 467 tasks × 5 trials (a handful of pairs have
+fewer than 5 completed runs; see `_export_manifest.json`). The 2026-07-31 board
+update added kimi-k3, claude-fable-5, gpt-5.6-luna, gpt-5.6-sol and minimax-m3
+to the 19 launch models.
 
 Benchmark code + task bank:
 [APIFlow-Bench (code + task bank)](https://github.com/postmanlabs/APIFlow-Bench).
